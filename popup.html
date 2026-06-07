@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dark / White Mode</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup">
+
+    <header>
+      <span class="logo" id="headerLogo">🌙</span>
+      <span class="title">Dark / White Mode</span>
+      <span class="version">v1.0</span>
+    </header>
+
+    <main>
+      <div class="mode-card">
+        <div class="mode-icon" id="modeIcon">🌙</div>
+        <div class="mode-info">
+          <div class="mode-label" id="modeLabel">Modo Oscuro</div>
+          <div class="mode-sub" id="modeSub">Activado globalmente</div>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="globalToggle">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </main>
+
+    <div class="divider"></div>
+
+    <section class="site-section">
+      <div class="site-header">
+        <span class="site-icon">🌐</span>
+        <span class="site-name" id="siteName">cargando...</span>
+      </div>
+      <div class="site-options">
+        <button class="site-btn" id="btnAuto">Automático</button>
+        <button class="site-btn" id="btnLight">☀️ Claro</button>
+        <button class="site-btn" id="btnDark">🌙 Oscuro</button>
+      </div>
+    </section>
+
+    <footer>Dark / White Mode &middot; v1.0</footer>
+
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
